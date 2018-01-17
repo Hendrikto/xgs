@@ -1,0 +1,8 @@
+[Unit]
+Description=Automatically choose the correct graphics card for Xorg
+
+[Service]
+ExecStart={{prefix}}/bin/xgs.sh
+
+[Install]
+WantedBy=multi-user.target
